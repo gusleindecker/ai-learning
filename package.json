@@ -1,0 +1,32 @@
+{
+  "name": "ai-learning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "tsc --project ./examples/tsconfig.json && eslint",
+    "example": "tsx internal/run-example.ts"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "GPL",
+  "packageManager": "pnpm@10.14.0",
+  "devDependencies": {
+    "@eslint/js": "^9.32.0",
+    "@eslint/markdown": "^7.1.0",
+    "@types/node": "^24.2.0",
+    "commander": "^14.0.0",
+    "eslint": "^9.32.0",
+    "tsx": "^4.20.3",
+    "typescript": "^5.9.2",
+    "typescript-eslint": "^8.39.0"
+  },
+  "dependencies": {
+    "@ai-sdk/anthropic": "^2.0.1",
+    "ai": "^5.0.8"
+  },
+  "volta": {
+    "node": "22.17.1"
+  }
+}
